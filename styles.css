@@ -1,0 +1,83 @@
+body {
+  background: white;
+}
+
+main {
+  background: #e3e3e3;
+  min-width: 500px;
+  border-radius: 3px;
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  border-top: 0.1px solid #e3e3e3;
+  height: 120px;
+  text-align: center; /* 是整個容器裡的h1,p向中對齊 */
+}
+
+#tribute-info {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.p1 {
+  margin: 0 50px;
+}
+
+#img-div {  /* 用div容器留白，不用調image和figcaption */
+ 
+  background: white;
+  margin: 0 20px;
+  padding: 10px 10px 0 10px;
+  border-radius: 3px;
+}
+
+img {
+
+  display: block; /* 有些元素要加了display: block;才能用width & margin搞對中，如img */
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 400px;
+}
+
+figcaption {
+
+  text-align: center;
+  margin: 5px 0;
+}
+
+.paragraphCenter {
+
+ width: 70%;
+ margin: 0 auto;  /* 將整個paragraphCenter的div向中間對齊  */ /* 把整個容器的with弄小，才能用margin搞到向中對齊 */
+ max-width: 600px;
+}
+
+.paragraphCenter > p {
+  text-align: center;
+}
+
+.quotation {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.wikiWebSite {
+  text-align: center;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.bold {
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.boldP {
+  font-weight: 800;
+}
+
+.italic {
+  font-style: italic;
+}
